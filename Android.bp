@@ -1,10 +1,7 @@
 android_app_import {
     name: "StitchImage",
     apk: "prebuilt/priv-app/StitchImage/StitchImage.apk",
-	certificate: "platform",
-    dex_preopt: {
-        enabled: false,
-    },
+    certificate: "platform",
     privileged: true,
     required: [
         "StitchImage-res",
@@ -15,8 +12,5 @@ android_app_import {
 android_app_import {
     name: "StitchImageService",
     apk: "prebuilt/app/StitchImageService/StitchImageService.apk",
-	certificate: "platform",
-    dex_preopt: {
-        enabled: false,
-    },
+    certificate: "platform",
 }
